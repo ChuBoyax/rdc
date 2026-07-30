@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ronilo Calape — IT Professional &amp; Visual Creative</title>
+<meta name="description" content="Ronilo D. Calape — an IT professional and visual creative from Inopacan, Leyte. Web development, systems &amp; hardware, drone cinematography, and audio engineering." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="image/hero.jpg" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="cursor-ring" id="cRing" aria-hidden="true"></div>
+<div class="cursor-dot" id="cDot" aria-hidden="true"></div>
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-mono">Portfolio · 2025</div>
+    <div class="loader-name"><span>Ronilo&nbsp;Calape</span></div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+<nav class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="Ronilo Calape — home"><span class="brand-dot"></span>RDC</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#services">Services</a>
+    <div class="nav-has-sub">
+      <a href="#projects">Projects <span class="caret" aria-hidden="true">▾</span></a>
+      <div class="nav-sub">
+        <a href="#projects-web">Web development</a>
+        <a href="#projects-photo">Photography &amp; drone</a>
+      </div>
+    </div>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="nav-cta">Get in touch</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"><span>01</span>About</a>
+  <a href="#expertise"><span>02</span>Expertise</a>
+  <a href="#services"><span>03</span>Services</a>
+  <a href="#projects"><span>04</span>Projects</a>
+  <a href="#projects-photo" class="sub"><span>·</span>Photography</a>
+  <a href="#journey"><span>05</span>Journey</a>
+  <a href="#contact"><span>06</span>Contact</a>
+</div>
+<header class="hero wrap" id="top">
+  <div class="hero-bg" data-parallax="0.12" aria-hidden="true"></div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="hero-loc eyebrow" data-reveal>Inopacan, Leyte · Philippines<span class="dot"></span></div>
+      <h1>
+        <span class="line"><i data-h>Ronilo</i></span>
+        <span class="line"><i data-h class="accent">Calape.</i></span>
+      </h1>
+      <div class="hero-roles" data-reveal data-reveal-delay="2">
+        <b>IT&nbsp;Professional</b><span class="sep">/</span>
+        <b>Visual&nbsp;Creative</b><span class="sep">/</span>
+        <b>Sound&nbsp;Engineer</b>
+      </div>
+      <p class="hero-desc" data-reveal data-reveal-delay="3">
+        One person, two disciplines. I build and repair the <b>systems</b> behind the work,
+        then pick up the camera to tell the <b>story</b> in front of it — from clean code and
+        reliable hardware to drone cinematography and live sound.
+      </p>
+      <div class="hero-actions" data-reveal data-reveal-delay="4">
+        <a href="#contact" class="btn btn-primary">Start a project <span class="arrow">→</span></a>
+        <a href="#expertise" class="btn btn-ghost">View expertise</a>
+      </div>
+      <div class="scroll-cue" data-reveal data-reveal-delay="5">
+        <span class="scroll-line"></span> Scroll to explore
+      </div>
+    </div>
+  </div>
+</header>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Web Development</span><span>Drone Cinematography</span><span>Hardware &amp; Repair</span>
+    <span>Graphic Design</span><span>Sound Engineering</span><span>Photography</span>
+    <span>Web Development</span><span>Drone Cinematography</span><span>Hardware &amp; Repair</span>
+    <span>Graphic Design</span><span>Sound Engineering</span><span>Photography</span>
+  </div>
+</div>
+<section class="about wrap pad-y" id="about">
+  <div class="about-grid">
+    <div class="about-label" data-reveal>(01)&nbsp; Profile</div>
+    <div>
+      <p class="about-statement" data-reveal data-reveal-delay="1">
+        I'm a <em>BSIT graduate</em> from Inopacan, Leyte who works comfortably on both sides of a project.
+        <span class="muted">The engineer keeps the tools sharp — assembling PCs, fixing hardware, installing systems, writing web apps in PHP &amp; Laravel.</span>
+        The eye handles the rest — <em>drone footage, photography, design, and live audio</em> that make the work worth watching and hearing.
+      </p>
+
+      <div class="about-meta" data-reveal data-reveal-delay="2">
+        <div class="item"><div class="k">Discipline</div><div class="v">IT &amp; Visual Media</div></div>
+        <div class="item"><div class="k">Education</div><div class="v">BSIT — MLG College</div></div>
+        <div class="item"><div class="k">Freelancing since</div><div class="v">2014</div></div>
+        <div class="item"><div class="k">Based in</div><div class="v">Inopacan, Leyte</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="expertise wrap pad-y" id="expertise">
+  <div class="sec-head">
+    <h2 data-reveal>Two crafts,<br><em>one operator.</em></h2>
+    <div class="sec-index" data-reveal data-reveal-delay="1">(02) — Expertise</div>
+  </div>
+
+  <div class="dom" data-reveal>
+    <div class="dom-num">D—01</div>
+    <div class="dom-body">
+      <div>
+        <div class="dom-title">Development<br>&amp; <em>Web</em></div>
+        <div class="dom-sub">Front to back</div>
+      </div>
+      <div>
+        <div class="dom-label">Toolset</div>
+        <div class="chips">
+          <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          <span class="chip">PHP</span><span class="chip">Laravel</span>
+        </div>
+        <p class="dom-desc">Building responsive interfaces and functional back-ends — from static pages to database-driven web applications with the Laravel framework.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="dom" data-reveal>
+    <div class="dom-num">D—02</div>
+    <div class="dom-body">
+      <div>
+        <div class="dom-title">Systems<br>&amp; <em>Hardware</em></div>
+        <div class="dom-sub">Build · fix · maintain</div>
+      </div>
+      <div>
+        <div class="dom-label">Toolset</div>
+        <div class="chips">
+          <span class="chip">PC Assembly &amp; Upgrades</span><span class="chip">Hardware Maintenance</span>
+          <span class="chip">Troubleshooting &amp; Repair</span><span class="chip">OS Installation (Windows)</span>
+        </div>
+        <p class="dom-desc">Hands-on with the machines themselves — assembling and upgrading rigs, diagnosing faults, and getting operating systems installed and running clean.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="dom" data-reveal>
+    <div class="dom-num">D—03</div>
+    <div class="dom-body">
+      <div>
+        <div class="dom-title">Visual<br>&amp; <em>Audio</em></div>
+        <div class="dom-sub">Capture · craft · perform</div>
+      </div>
+      <div>
+        <div class="dom-label">Toolset</div>
+        <div class="chips">
+          <span class="chip">Drone Photography</span><span class="chip">Videography</span>
+          <span class="chip">Photography</span><span class="chip">Graphic Design</span><span class="chip">Sound Engineering</span>
+        </div>
+        <p class="dom-desc">Aerial and ground cinematography, photography, and graphic work — plus live sound operation and audio engineering for events.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services wrap pad-y" id="services">
+  <div class="sec-head">
+    <h2 data-reveal>What I can<br><em>build for you.</em></h2>
+    <div class="sec-index" data-reveal data-reveal-delay="1">(03) — Services</div>
+  </div>
+  <div class="svc-grid" data-reveal data-reveal-delay="1">
+    <div class="svc">
+      <div class="svc-n">S—01</div>
+      <h3>Web Development</h3>
+      <p>Custom websites and web applications built with HTML, CSS, JavaScript, PHP and Laravel — responsive, functional, and made to last.</p>
+      <ul class="svc-list">
+        <li>Responsive websites &amp; landing pages</li>
+        <li>Laravel web applications</li>
+        <li>Database design &amp; integration</li>
+      </ul>
+      <a href="#contact" class="svc-link">Discuss this <span class="arrow">→</span></a>
+    </div>
+    <div class="svc">
+      <div class="svc-n">S—02</div>
+      <h3>Drone &amp; Video Production</h3>
+      <p>Aerial cinematography, event coverage, and video editing — capturing your story from angles the ground can't reach.</p>
+      <ul class="svc-list">
+        <li>Aerial &amp; ground cinematography</li>
+        <li>Event and coverage shoots</li>
+        <li>Editing &amp; post-production</li>
+      </ul>
+      <a href="#contact" class="svc-link">Discuss this <span class="arrow">→</span></a>
+    </div>
+    <div class="svc">
+      <div class="svc-n">S—03</div>
+      <h3>PC Build &amp; Repair</h3>
+      <p>Assembly, upgrades, hardware troubleshooting, and Windows installation to keep your machines fast and reliable.</p>
+      <ul class="svc-list">
+        <li>Custom builds &amp; upgrades</li>
+        <li>Fault diagnosis &amp; repair</li>
+        <li>Windows install &amp; setup</li>
+      </ul>
+      <a href="#contact" class="svc-link">Discuss this <span class="arrow">→</span></a>
+    </div>
+    <div class="svc">
+      <div class="svc-n">S—04</div>
+      <h3>Photo, Design &amp; Audio</h3>
+      <p>Photography, graphic design, and professional sound engineering for events — visuals and audio handled by one team.</p>
+      <ul class="svc-list">
+        <li>Event &amp; portrait photography</li>
+        <li>Graphic design &amp; layout</li>
+        <li>Live sound engineering</li>
+      </ul>
+      <a href="#contact" class="svc-link">Discuss this <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects wrap pad-y" id="projects">
+  <div class="sec-head">
+    <h2 data-reveal>Selected<br><em>projects.</em></h2>
+    <div class="sec-index" data-reveal data-reveal-delay="1">(04) — Projects</div>
+  </div>
+
+  <!-- 01 · web development -->
+  <div class="pj-group" id="projects-web">
+    <div class="pj-head" data-reveal>
+      <span class="pj-num">01</span>
+      <div>
+        <h3>Web development</h3>
+        <p>Systems built, shipped, and running in production.</p>
+      </div>
+    </div>
+
+    <article class="pj" data-reveal data-reveal-delay="1">
+      <a class="pj-shot" href="https://lmbs-staging.leopards.online/" target="_blank" rel="noopener noreferrer"
+         aria-label="Open the Leopards Motorboat Service site in a new tab">
+        <img src="image/work/lmbs.jpg" width="1600" height="856" loading="lazy" decoding="async"
+             alt="Homepage of the Leopards Motorboat Service booking site, showing a trip search form over a photo of a passenger boat">
+      </a>
+      <div class="pj-body">
+        <div class="pj-kicker">Booking platform</div>
+        <h4>Leopards Motorboat Service</h4>
+        <p>A passenger booking platform for the Hilongos–Ubay motorboat route. Travellers search one-way or
+          round-trip sailings by departure date and passenger count, browse the fleet, and read guidelines and
+          news updates — with bookings and accounts handled behind a login.</p>
+        <div class="pj-tags">
+          <span class="chip">Laravel</span><span class="chip">PHP</span>
+          <span class="chip">Route &amp; schedule search</span><span class="chip">Responsive UI</span>
+        </div>
+        <dl class="pj-meta">
+          <div><dt>Role</dt><dd>Web development</dd></div>
+          <div><dt>Sector</dt><dd>Passenger transport</dd></div>
+          <div><dt>Status</dt><dd>Live on staging</dd></div>
+        </dl>
+        <a class="pj-link" href="https://lmbs-staging.leopards.online/" target="_blank" rel="noopener noreferrer">
+          Visit the site <span class="arrow">↗</span>
+        </a>
+      </div>
+    </article>
+  </div>
+
+  <!-- 02 · photography -->
+  <div class="pj-group" id="projects-photo">
+    <div class="pj-head" data-reveal>
+      <span class="pj-num">02</span>
+      <div>
+        <h3>Photography &amp; drone</h3>
+        <p>Selected frames from client shoots and personal work.</p>
+      </div>
+    </div>
+  <div class="work-grid" data-reveal data-reveal-delay="1">
+    <button class="wk" type="button" data-cap="Drone launch, golden hour" data-tag="Drone">
+      <img src="image/work/seven.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="A drone lifting off from an open field at golden hour">
+      <span class="wk-cap"><b>Drone</b>Drone launch, golden hour</span>
+    </button>
+    <button class="wk" type="button" data-cap="Formal couple portrait" data-tag="Couples">
+      <img src="image/work/two.jpg" width="1400" height="2100" loading="lazy" decoding="async" alt="A formally dressed couple posing outdoors">
+      <span class="wk-cap"><b>Couples</b>Formal couple portrait</span>
+    </button>
+    <button class="wk" type="button" data-cap="Groomsmen, wedding day" data-tag="Wedding">
+      <img src="image/work/three.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="Groomsmen in suits lined up on a wedding day">
+      <span class="wk-cap"><b>Wedding</b>Groomsmen, wedding day</span>
+    </button>
+    <button class="wk" type="button" data-cap="River portrait" data-tag="Portrait">
+      <img src="image/work/ten.jpg" width="1201" height="1800" loading="lazy" decoding="async" alt="A woman standing in a calm river framed by trees">
+      <span class="wk-cap"><b>Portrait</b>River portrait</span>
+    </button>
+    <button class="wk" type="button" data-cap="Field portrait, flower crown" data-tag="Portrait">
+      <img src="image/work/eleven.jpg" width="1400" height="934" loading="lazy" decoding="async" alt="A woman wearing a flower crown in a tall grass field">
+      <span class="wk-cap"><b>Portrait</b>Field portrait, flower crown</span>
+    </button>
+    <button class="wk" type="button" data-cap="Outdoor portrait" data-tag="Portrait">
+      <img src="image/work/eight.jpg" width="960" height="960" loading="lazy" decoding="async" alt="Outdoor portrait of a young man in a blue shirt">
+      <span class="wk-cap"><b>Portrait</b>Outdoor portrait</span>
+    </button>
+    <button class="wk" type="button" data-cap="Couple session, garden" data-tag="Couples">
+      <img src="image/work/six.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="A couple facing each other in a garden setting">
+      <span class="wk-cap"><b>Couples</b>Couple session, garden</span>
+    </button>
+    <button class="wk" type="button" data-cap="Golden light, field session" data-tag="Portrait">
+      <img src="image/work/twelve.jpg" width="1201" height="1800" loading="lazy" decoding="async" alt="A woman in a flower crown lit by warm afternoon light">
+      <span class="wk-cap"><b>Portrait</b>Golden light, field session</span>
+    </button>
+    <button class="wk" type="button" data-cap="Family candid" data-tag="Events">
+      <img src="image/work/one.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="A baby held by family members during a gathering">
+      <span class="wk-cap"><b>Events</b>Family candid</span>
+    </button>
+    <button class="wk" type="button" data-cap="Lovebird, close-up" data-tag="Nature">
+      <img src="image/work/thirteen.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="Close-up of a yellow lovebird">
+      <span class="wk-cap"><b>Nature</b>Lovebird, close-up</span>
+    </button>
+    <button class="wk" type="button" data-cap="Coastline, Inopacan" data-tag="Travel">
+      <img src="image/work/four.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="A man on a white sand beach with green hills behind">
+      <span class="wk-cap"><b>Travel</b>Coastline, Inopacan</span>
+    </button>
+    <button class="wk" type="button" data-cap="Behind the camera" data-tag="Behind the scenes">
+      <img src="image/work/nine.jpg" width="1080" height="720" loading="lazy" decoding="async" alt="A photographer holding a camera up to his eye">
+      <span class="wk-cap"><b>Behind the scenes</b>Behind the camera</span>
+    </button>
+    <button class="wk" type="button" data-cap="Open water, Leyte" data-tag="Travel">
+      <img src="image/work/five.jpg" width="1400" height="933" loading="lazy" decoding="async" alt="A man standing in front of calm open water">
+      <span class="wk-cap"><b>Travel</b>Open water, Leyte</span>
+    </button>
+  </div>
+  </div>
+</section>
+
+<section class="journey wrap pad-y" id="journey">
+  <div class="sec-head">
+    <h2 data-reveal>The road<br><em>so far.</em></h2>
+    <div class="sec-index" data-reveal data-reveal-delay="1">(05) — Journey</div>
+  </div>
+  <div class="tl">
+    <div class="tl-item" data-reveal>
+      <div class="tl-dot"></div>
+      <div class="tl-when">2014 — 2024</div>
+      <div class="tl-what">
+        <h4>Event Disc Jockey</h4>
+        <div class="org">Freelance</div>
+        <p>A decade running sound and energy at live events — the start of a long relationship with audio and the crowd in front of it.</p>
+        <span class="tl-tag">Audio · Live</span>
+      </div>
+    </div>
+    <div class="tl-item is-now" data-reveal>
+      <div class="tl-dot"></div>
+      <div class="tl-when">2019 — <b>Present</b></div>
+      <div class="tl-what">
+        <h4>Freelance Photographer</h4>
+        <div class="org">Freelance</div>
+        <p>Shooting events, portraits, and stories — building the visual eye that now carries across every project.</p>
+        <span class="tl-tag">Photography</span>
+      </div>
+    </div>
+    <div class="tl-item" data-reveal>
+      <div class="tl-dot"></div>
+      <div class="tl-when">2019 — 2026</div>
+      <div class="tl-what">
+        <h4>BS in Information Technology</h4>
+        <div class="org">MLG College of Learning, Inc.</div>
+        <p>Formal grounding in software, systems, and networks — where the code and hardware skills were sharpened into a profession.</p>
+        <span class="tl-tag">Education</span>
+      </div>
+    </div>
+    <div class="tl-item is-now" data-reveal>
+      <div class="tl-dot"></div>
+      <div class="tl-when">2022 — <b>Present</b></div>
+      <div class="tl-what">
+        <h4>Freelance Videographer</h4>
+        <div class="org">Freelance</div>
+        <p>Motion, editing, and drone cinematography — turning single frames into full stories that move.</p>
+        <span class="tl-tag">Video · Drone</span>
+      </div>
+    </div>
+    <div class="tl-item is-now" data-reveal>
+      <div class="tl-dot"></div>
+      <div class="tl-when">2023 — <b>Present</b></div>
+      <div class="tl-what">
+        <h4>Freelance Graphic Artist</h4>
+        <div class="org">Freelance</div>
+        <p>Design work that ties the visuals together — layouts, branding, and graphics that give each project a finished look.</p>
+        <span class="tl-tag">Design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats wrap pad-y">
+  <div class="stats-grid" data-reveal>
+    <div class="stat"><div class="num" data-count="6">0</div><div class="lab">Disciplines<br>under one roof</div></div>
+    <div class="stat"><div class="num" data-count="10" data-suffix="+">0</div><div class="lab">Years<br>freelancing</div></div>
+    <div class="stat"><div class="num" data-count="2" data-suffix="">0</div><div class="lab">Sides — engineer<br>&amp; the eye</div></div>
+    <div class="stat"><div class="num" data-count="100" data-suffix="%">0</div><div class="lab">Hands-on,<br>start to finish</div></div>
+  </div>
+</section>
+<section class="contact wrap pad-y" id="contact">
+  <div class="contact-glow" aria-hidden="true"></div>
+  <div class="contact-inner">
+    <div class="eyebrow" data-reveal style="justify-content:center">Let's work together</div>
+    <h2 data-reveal data-reveal-delay="1">Have a project<br>in <em>mind?</em></h2>
+    <a href="mailto:calape55@gmail.com" class="contact-mail" data-reveal data-reveal-delay="2">
+      calape55@gmail.com <span class="arrow">→</span>
+    </a>
+    <div class="contact-row" data-reveal data-reveal-delay="3">
+      <div class="c"><div class="k">Phone</div><a class="v" href="tel:+639617331288">0961 733 1288</a></div>
+      <div class="c"><div class="k">Location</div><div class="v">Inopacan, Leyte, PH</div></div>
+      <div class="c"><div class="k">Availability</div><div class="v">Open for freelance</div></div>
+    </div>
+
+    <div class="refs-label" data-reveal data-reveal-delay="4">Professional references</div>
+    <div class="refs" data-reveal data-reveal-delay="4">
+      <div class="ref">
+        <div class="rk">Reference — 01</div>
+        <div class="rn">Mr. Ariel Baguio</div>
+        <div class="rr">IT Coordinator, Inopacan National High School</div>
+        <div class="rc">0919 408 1086</div>
+      </div>
+      <div class="ref">
+        <div class="rk">Reference — 02</div>
+        <div class="rn">Mr. Gilbert B. David, MSIT</div>
+        <div class="rr">Program Chair, BSIT</div>
+        <div class="rc">0926 393 6025</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-name">Ronilo<br><em>Calape.</em></div>
+    <div class="footer-contact">
+      <a href="mailto:calape55@gmail.com">calape55@gmail.com</a>
+      <a href="tel:+639617331288">0961 733 1288</a>
+      <span>Inopacan, Leyte · Philippines</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Ronilo D. Calape — All rights reserved</p>
+    <a href="#top" class="to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- lightbox -->
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close viewer">&#10005;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous image">&#8592;</button>
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next image">&#8594;</button>
+  <figure class="lb-fig">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
